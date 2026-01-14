@@ -1,3 +1,4 @@
+/* General */
 body {
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
@@ -6,7 +7,7 @@ body {
   padding: 0;
 }
 
-/* SIDEBAR */
+/* Sidebar */
 .sidebar {
   position: fixed;
   top: 0;
@@ -25,7 +26,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
-  margin: 20px 20px;
+  margin: 20px;
   transition: color 0.3s, transform 0.3s;
 }
 
@@ -39,13 +40,13 @@ body {
   font-weight: 700;
 }
 
-/* MAIN CONTENT */
+/* Main content */
 .main-content {
   margin-left: 180px;
   padding-top: 20px;
 }
 
-/* HERO */
+/* Hero */
 .hero {
   background: linear-gradient(135deg, #2563eb, #0d6efd);
   color: white;
@@ -63,7 +64,7 @@ body {
   margin-top: 15px;
 }
 
-/* SECTIONS */
+/* Sections */
 .section {
   padding: 90px 20px;
 }
@@ -87,7 +88,7 @@ body {
   line-height: 1.8;
 }
 
-/* CARDS */
+/* Cards */
 .skill-box, .project-card {
   background: #ffffff;
   color: #111;
@@ -103,7 +104,7 @@ body {
   box-shadow: 0 15px 25px rgba(0,0,0,0.15);
 }
 
-/* CONTACT */
+/* Contact */
 .section.bg-dark {
   background: #111827;
   color: #ffffff;
@@ -113,7 +114,7 @@ body {
   color: #f1f1f1;
 }
 
-/* BUTTONS */
+/* Buttons */
 .btn-primary {
   background-color: #2563eb;
   border-color: #2563eb;
@@ -135,14 +136,14 @@ body {
   border-color: #ccc;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
   background: #1f2937;
   color: #f1f1f1;
   padding: 20px 0;
 }
 
-/* FADE-IN */
+/* Fade-in animation */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -154,7 +155,7 @@ footer {
   transform: translateY(0);
 }
 
-/* MOBILE MENU */
+/* Mobile menu */
 .mobile-menu {
   display: none;
   position: fixed;
@@ -171,7 +172,7 @@ footer {
   cursor: pointer;
 }
 
-/* RESPONSIVE: mobile */
+/* Responsive */
 @media (max-width: 768px) {
   .sidebar {
     display: none;

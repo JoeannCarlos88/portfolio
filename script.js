@@ -1,4 +1,4 @@
-// Contact button
+// Contact button alert
 document.getElementById("contactBtn").addEventListener("click", () => {
   alert("Thank you for reaching out! I am open to opportunities.");
 });
@@ -15,7 +15,7 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 reveal();
 
-// Sidebar active links
+// Sidebar active link highlight
 const sidebarLinks = document.querySelectorAll(".sidebar-link");
 function updateSidebar() {
   let scrollPos = window.scrollY + window.innerHeight/2;
@@ -29,7 +29,7 @@ function updateSidebar() {
 window.addEventListener("scroll", updateSidebar);
 updateSidebar();
 
-// MOBILE MENU TOGGLE
+// Mobile menu toggle
 const menuToggle = document.getElementById("menu-toggle");
 const sidebar = document.querySelector(".sidebar");
 menuToggle.addEventListener("click", () => {
